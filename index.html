@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apex Sports — Cricket, Football, Fitness &amp; Running Gear Online in India</title>
+<meta name="description" content="Shop authentic cricket bats, football boots, badminton racquets, gym equipment and running shoes from Nike, Adidas, Yonex, SG and more. Free express shipping above ₹1,499.">
+<meta name="theme-color" content="#0d1420">
+<meta property="og:title" content="Apex Sports — Gear Up. Play Harder.">
+<meta property="og:description" content="India's specialist sports retailer. Authentic gear, expert advice, fast dispatch.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SportingGoodsStore","name":"Apex Sports",
+"telephone":"+91 98400 12345","email":"support@apexsports.in",
+"address":{"@type":"PostalAddress","streetAddress":"142 Anna Salai, Nandanam","addressLocality":"Chennai","addressRegion":"Tamil Nadu","postalCode":"600035","addressCountry":"IN"},
+"openingHours":"Mo-Sa 09:30-21:00","priceRange":"₹₹"}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="headerMount"></header>
+
+<main id="main">
+
+  <!-- ============================================================ HERO -->
+  <section class="hero" aria-label="Featured collections">
+    <div class="hero__track" id="heroTrack"></div>
+    <div class="hero__nav">
+      <div class="container hero__nav-inner">
+        <div class="hero__dots" id="heroDots" role="tablist" aria-label="Choose slide"></div>
+        <div class="hero__arrows">
+          <button class="hero__arrow" id="heroPrev" aria-label="Previous slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M11 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="hero__arrow" id="heroNext" aria-label="Next slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__inner" id="marquee"></div>
+  </div>
+
+  <!-- ============================================================= USPS -->
+  <section class="usp-strip" aria-label="Why shop with us">
+    <div class="container"><div class="usp-strip__grid" id="uspStrip"></div></div>
+  </section>
+
+  <!-- ======================================================= CATEGORIES -->
+  <section class="section" aria-labelledby="catTitle">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <div>
+          <span class="eyebrow eyebrow--center">Shop by sport</span>
+          <h2 id="catTitle">Every sport. One trusted store.</h2>
+          <p>Twelve categories, strictly authentic stock, and gear picked by people who actually play.</p>
+        </div>
+      </div>
+      <div class="cat-grid" id="catGrid"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================= FEATURED -->
+  <section class="section section--soft" aria-labelledby="featTitle">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Handpicked</span>
+          <h2 id="featTitle">Trending this week</h2>
+          <p>What our customers are buying right now — filtered by real order data.</p>
+        </div>
+        <a class="section-head__link" href="shop.html">View all products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="tabs__nav" id="featuredTabs" style="margin-bottom:26px"></div>
+      <div class="product-grid" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================= DEAL -->
+  <section class="section" aria-labelledby="dealTitle">
+    <div class="container">
+      <div class="deal" id="dealBlock"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================= BESTSELLERS -->
+  <section class="section section--tight" aria-labelledby="bestTitle">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Top rated</span>
+          <h2 id="bestTitle">Highest rated by athletes</h2>
+        </div>
+        <a class="section-head__link" href="shop.html?sort=rating">Shop top rated
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="product-grid" id="bestGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ BRANDS -->
+  <section class="section section--tight" aria-labelledby="brandTitle">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <div>
+          <span class="eyebrow eyebrow--center">Authorised retailer</span>
+          <h2 id="brandTitle">Brands we stock</h2>
+        </div>
+      </div>
+      <div class="brand-strip" id="brandStrip"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ REVIEWS -->
+  <section class="section section--soft" aria-labelledby="revTitle">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <div>
+          <span class="eyebrow eyebrow--center">Verified buyers</span>
+          <h2 id="revTitle">18,400+ athletes rate us 4.7 / 5</h2>
+          <p>Reviews collected from delivered orders across India.</p>
+        </div>
+      </div>
+      <div class="review-grid" id="reviewGrid"></div>
+    </div>
+  </section>
+
+  <!-- ==================================================== RECENTLY VIEWED -->
+  <section class="section section--tight" id="recentMount" hidden></section>
+
+  <!-- ========================================================= NEWSLETTER -->
+  <section class="section" aria-labelledby="nlTitle">
+    <div class="container">
+      <div class="newsletter">
+        <div>
+          <span class="eyebrow eyebrow--light">Join the club</span>
+          <h2 id="nlTitle">Get ₹300 off your first order</h2>
+          <p>Drop dates, restock alerts and member-only pricing. One email a week, no spam ever.</p>
+        </div>
+        <div>
+          <form class="newsletter__form" id="newsletterForm" novalidate>
+            <input type="email" id="nlEmail" placeholder="you@example.com" aria-label="Email address" required>
+            <button class="btn btn--dark" type="submit">Claim my ₹300</button>
+          </form>
+          <p class="newsletter__note" id="nlNote">By subscribing you agree to our privacy policy. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="footerMount"></footer>
+<div id="drawerMount"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>

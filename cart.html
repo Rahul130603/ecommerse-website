@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Cart — Apex Sports</title>
+<meta name="description" content="Review the sports gear in your Apex Sports cart, apply a coupon and check out securely.">
+<meta name="theme-color" content="#0d1420">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="headerMount"></header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+        <b>Shopping cart</b>
+      </nav>
+      <h1>Shopping cart</h1>
+      <p id="cartSub">Review your gear before checkout. Prices include GST and stock is reserved for 60 minutes.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cart-layout">
+        <div>
+          <div class="panel">
+            <div class="panel__head">
+              <h3 id="cartPanelTitle">Your items</h3>
+              <button class="filters__clear" id="emptyCart" type="button">Empty cart</button>
+            </div>
+            <div class="panel__body" id="cartBody"></div>
+          </div>
+
+          <div class="panel mt-24">
+            <div class="panel__body" style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+              <div class="info-card__icon" style="background:var(--green-tint);color:var(--green)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M2 6.5h11v10H2z"/><path d="M13 10h4l4 3.6v2.9h-8z"/><circle cx="6" cy="18.5" r="1.8"/><circle cx="17" cy="18.5" r="1.8"/></svg>
+              </div>
+              <div style="flex:1;min-width:220px">
+                <b id="shipMsg" style="color:var(--ink)">Add more to unlock free express shipping</b>
+                <div class="freeship__track mt-8"><div class="freeship__fill" id="shipBar" style="width:0%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="panel panel--sticky" aria-label="Order summary">
+          <div class="panel__head"><h3>Order summary</h3></div>
+          <div class="panel__body">
+            <div id="couponZone"></div>
+            <div id="summaryRows"></div>
+            <a class="btn btn--block btn--lg mt-16" href="checkout.html" id="toCheckout">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="17" height="17"><rect x="4.5" y="10.5" width="15" height="10" rx="2.4"/><path d="M8 10.5V7.8a4 4 0 0 1 8 0v2.7"/></svg>
+              Proceed to checkout
+            </a>
+            <a class="btn btn--outline btn--block mt-8" href="shop.html">Continue shopping</a>
+            <div class="assure-row mt-16" style="border:0;padding:12px 0">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M12 2.5l7.5 3v6c0 5-3.2 8.4-7.5 10-4.3-1.6-7.5-5-7.5-10v-6z"/><path d="M8.8 12l2.3 2.4 4.3-4.8"/></svg>
+              <span><b>Safe &amp; secure checkout</b><span>256-bit SSL \u00B7 PCI-DSS compliant payments</span></span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="mt-48" id="alsoSection" hidden>
+        <div class="section-head">
+          <div><span class="eyebrow">Frequently bought together</span><h2>Add these to your kit</h2></div>
+        </div>
+        <div class="product-grid" id="alsoGrid"></div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<footer id="footerMount"></footer>
+<div id="drawerMount"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/cart.js"></script>
+</body>
+</html>

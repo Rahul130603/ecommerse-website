@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Secure Checkout — Apex Sports</title>
+<meta name="description" content="Complete your Apex Sports order with UPI, cards, net banking or cash on delivery. Free express shipping above ₹1,499.">
+<meta name="theme-color" content="#0d1420">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="headerMount"></header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+        <a href="cart.html">Cart</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+        <b>Checkout</b>
+      </nav>
+      <h1>Secure checkout</h1>
+      <p>Encrypted end to end. We never store your card details on our servers.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container" id="checkoutMain">
+
+      <div class="steps">
+        <span class="step is-done"><span class="step__num">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M20 6L9 17l-5-5"/></svg>
+        </span>Cart</span>
+        <span class="step__bar"></span>
+        <span class="step is-on"><span class="step__num">2</span>Delivery details</span>
+        <span class="step__bar"></span>
+        <span class="step"><span class="step__num">3</span>Payment</span>
+        <span class="step__bar"></span>
+        <span class="step"><span class="step__num">4</span>Confirmation</span>
+      </div>
+
+      <div class="cart-layout">
+        <form id="checkoutForm" novalidate>
+
+          <div class="panel">
+            <div class="panel__head"><h3>1. Contact information</h3></div>
+            <div class="panel__body">
+              <div class="field-row">
+                <label class="field"><span class="field__label">Full name <span>*</span></span>
+                  <input class="input" name="name" id="f-name" placeholder="e.g. Karthik Raja" autocomplete="name">
+                  <span class="field__error">Please enter your full name</span></label>
+                <label class="field"><span class="field__label">Mobile number <span>*</span></span>
+                  <input class="input" name="phone" id="f-phone" placeholder="10-digit mobile number" inputmode="numeric" autocomplete="tel">
+                  <span class="field__error">Enter a valid 10-digit Indian mobile number</span></label>
+              </div>
+              <label class="field"><span class="field__label">Email address <span>*</span></span>
+                <input class="input" name="email" id="f-email" placeholder="you@example.com" autocomplete="email">
+                <span class="field__error">Enter a valid email address</span>
+                <span class="field__hint">Order confirmation and invoice will be sent here.</span></label>
+            </div>
+          </div>
+
+          <div class="panel mt-24">
+            <div class="panel__head"><h3>2. Delivery address</h3></div>
+            <div class="panel__body">
+              <label class="field"><span class="field__label">Address line <span>*</span></span>
+                <input class="input" name="address" id="f-address" placeholder="Flat / house no., building, street" autocomplete="street-address">
+                <span class="field__error">Please enter your address</span></label>
+              <div class="field-row">
+                <label class="field"><span class="field__label">Locality / area</span>
+                  <input class="input" name="area" id="f-area" placeholder="Area, landmark" autocomplete="address-line2"></label>
+                <label class="field"><span class="field__label">City <span>*</span></span>
+                  <input class="input" name="city" id="f-city" placeholder="City" autocomplete="address-level2">
+                  <span class="field__error">Please enter your city</span></label>
+              </div>
+              <div class="field-row field-row--3">
+                <label class="field"><span class="field__label">State <span>*</span></span>
+                  <select class="select" name="state" id="f-state">
+                    <option value="">Select state</option>
+                    <option>Tamil Nadu</option><option>Karnataka</option><option>Kerala</option>
+                    <option>Andhra Pradesh</option><option>Telangana</option><option>Maharashtra</option>
+                    <option>Delhi</option><option>Gujarat</option><option>West Bengal</option>
+                    <option>Rajasthan</option><option>Punjab</option><option>Uttar Pradesh</option>
+                    <option>Madhya Pradesh</option><option>Odisha</option><option>Assam</option>
+                    <option>Goa</option><option>Bihar</option><option>Jharkhand</option>
+                  </select>
+                  <span class="field__error">Please select a state</span></label>
+                <label class="field"><span class="field__label">PIN code <span>*</span></span>
+                  <input class="input" name="pincode" id="f-pincode" placeholder="6-digit PIN" inputmode="numeric" autocomplete="postal-code">
+                  <span class="field__error">Enter a valid 6-digit PIN code</span></label>
+                <label class="field"><span class="field__label">Address type</span>
+                  <select class="select" name="type" id="f-type">
+                    <option>Home</option><option>Work</option><option>Other</option>
+                  </select></label>
+              </div>
+              <label class="check mt-8"><input type="checkbox" id="f-save" checked>
+                <span class="check__text">Save this address for faster checkout next time</span></label>
+            </div>
+          </div>
+
+          <div class="panel mt-24">
+            <div class="panel__head"><h3>3. Payment method</h3></div>
+            <div class="panel__body">
+              <label class="pay-option is-on" data-pay="upi">
+                <input type="radio" name="payment" value="upi" checked>
+                <span><b>UPI / QR payment</b><span>GPay, PhonePe, Paytm, BHIM and every UPI app</span></span>
+                <span class="pay-option__tag">Instant</span>
+              </label>
+              <div class="pay-fields" data-for="upi">
+                <label class="field"><span class="field__label">UPI ID</span>
+                  <input class="input" id="f-upi" placeholder="yourname@okhdfcbank" inputmode="email">
+                  <span class="field__error">Enter a valid UPI ID (e.g. name@bank)</span></label>
+              </div>
+
+              <label class="pay-option" data-pay="card">
+                <input type="radio" name="payment" value="card">
+                <span><b>Credit / debit card</b><span>Visa, Mastercard, RuPay and Amex accepted</span></span>
+              </label>
+              <div class="pay-fields hidden" data-for="card">
+                <label class="field"><span class="field__label">Card number</span>
+                  <input class="input" id="f-card" placeholder="1234 5678 9012 3456" inputmode="numeric" maxlength="19">
+                  <span class="field__error">Enter a valid 16-digit card number</span></label>
+                <div class="field-row">
+                  <label class="field"><span class="field__label">Expiry</span>
+                    <input class="input" id="f-exp" placeholder="MM/YY" maxlength="5" inputmode="numeric">
+                    <span class="field__error">Enter a valid expiry</span></label>
+                  <label class="field"><span class="field__label">CVV</span>
+                    <input class="input" id="f-cvv" placeholder="123" maxlength="4" inputmode="numeric" type="password">
+                    <span class="field__error">Enter the 3-digit CVV</span></label>
+                </div>
+              </div>
+
+              <label class="pay-option" data-pay="netbanking">
+                <input type="radio" name="payment" value="netbanking">
+                <span><b>Net banking</b><span>All major Indian banks supported</span></span>
+              </label>
+              <div class="pay-fields hidden" data-for="netbanking">
+                <label class="field"><span class="field__label">Choose your bank</span>
+                  <select class="select" id="f-bank">
+                    <option value="">Select bank</option>
+                    <option>HDFC Bank</option><option>ICICI Bank</option><option>State Bank of India</option>
+                    <option>Axis Bank</option><option>Kotak Mahindra Bank</option><option>Punjab National Bank</option>
+                    <option>Bank of Baroda</option><option>Canara Bank</option><option>IndusInd Bank</option>
+                  </select>
+                  <span class="field__error">Please select your bank</span></label>
+              </div>
+
+              <label class="pay-option" data-pay="cod">
+                <input type="radio" name="payment" value="cod">
+                <span><b>Cash on delivery</b><span>Pay the delivery partner in cash or by UPI on arrival</span></span>
+                <span class="pay-option__tag">+&#8377;49 fee</span>
+              </label>
+
+              <label class="check mt-16"><input type="checkbox" id="f-terms">
+                <span class="check__text">I agree to the <a href="about.html">terms of service</a>, <a href="about.html">privacy policy</a> and the 7-day exchange policy.</span></label>
+              <span class="field__error" id="termsError" style="display:none">Please accept the terms to continue</span>
+            </div>
+          </div>
+
+          <button class="btn btn--lg btn--block mt-24" type="submit" id="placeOrder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><rect x="4.5" y="10.5" width="15" height="10" rx="2.4"/><path d="M8 10.5V7.8a4 4 0 0 1 8 0v2.7"/></svg>
+            Place order securely
+          </button>
+          <p class="small muted text-center mt-16">By placing this order you confirm the details above are correct. This is a demo store — no real payment is taken.</p>
+        </form>
+
+        <aside class="panel panel--sticky" aria-label="Order summary">
+          <div class="panel__head">
+            <h3>Order summary</h3>
+            <a class="filters__clear" href="cart.html">Edit cart</a>
+          </div>
+          <div class="panel__body">
+            <div id="coItems" class="mb-16"></div>
+            <div id="coTotals"></div>
+            <div class="assure-row mt-16" style="border:0;padding:12px 0">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M20.5 11.5a8.5 8.5 0 1 0-2 6.4"/><path d="M20.8 5.5v6h-6"/></svg>
+              <span><b>7-day easy exchange</b><span>Free reverse pickup on size issues</span></span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="footerMount"></footer>
+<div id="drawerMount"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/checkout.js"></script>
+</body>
+</html>

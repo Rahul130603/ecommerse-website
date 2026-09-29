@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img"><defs>
+    <linearGradient id="bgAPX-0361" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#fbfbfc"/><stop offset="1" stop-color="#eceef1"/>
+    </linearGradient>
+    <radialGradient id="bgAPX-0361s" cx="0.5" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgAPX-0361f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgAPX-0361)"/>
+  <circle cx="470" cy="120" r="130" fill="#ffffff" opacity="0.45"/>
+  <rect width="600" height="600" fill="url(#bgAPX-0361s)"/>
+  <ellipse cx="300" cy="486" rx="146" ry="24" fill="#0d1420" opacity="0.075"/>
+  <ellipse cx="300" cy="486" rx="86" ry="14" fill="#0d1420" opacity="0.06"/>
+  <g transform="translate(300 276) scale(2.02) translate(-100 -100)">
+    <circle cx="54" cy="128" r="36" fill="none" stroke="#23262d" stroke-width="9"/>
+    <circle cx="150" cy="128" r="36" fill="none" stroke="#23262d" stroke-width="9"/>
+    <circle cx="54" cy="128" r="7" fill="#bcc5d1"/>
+    <circle cx="150" cy="128" r="7" fill="#bcc5d1"/>
+    <path d="M54 128 L94 70 L126 128 M94 70 L150 128 M82 70 H106"
+          stroke="#71777f" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 128 L118 96" stroke="#4a4f57" stroke-width="7"/>
+    <path d="M150 128 L158 100" stroke="#4a4f57" stroke-width="7"/>
+    <rect x="106" y="60" width="28" height="9" rx="4" fill="#23262d"/>
+    <path d="M148 96 h26" stroke="#23262d" stroke-width="7" stroke-linecap="round"/>
+    <path d="M118 96 h18" stroke="#23262d" stroke-width="6"/></g>
+  <text x="300" y="566" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="19" letter-spacing="5" fill="#0d1420" opacity="0.22">APEX SPORTS</text></svg>

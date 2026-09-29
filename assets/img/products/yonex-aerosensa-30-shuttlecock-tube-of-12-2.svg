@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img"><defs>
+    <linearGradient id="bgAPX-0232" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#fbfbfc"/><stop offset="1" stop-color="#eceef1"/>
+    </linearGradient>
+    <radialGradient id="bgAPX-0232s" cx="0.5" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgAPX-0232f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgAPX-0232)"/>
+  <circle cx="470" cy="120" r="130" fill="#ffffff" opacity="0.45"/>
+  <rect width="600" height="600" fill="url(#bgAPX-0232s)"/>
+  <ellipse cx="300" cy="486" rx="146" ry="24" fill="#0d1420" opacity="0.075"/>
+  <ellipse cx="300" cy="486" rx="86" ry="14" fill="#0d1420" opacity="0.06"/>
+  <g transform="translate(300 282) scale(1.80) rotate(-7) translate(-100 -100)">
+    <path d="M86 132 L56 40 h88 L114 132 z" fill="#f5f7fa"/>
+    <path d="M86 132 L56 40 h20 L96 132z" fill="#d9dee6" opacity=".7"/>
+    <path d="M74 128 L50 52 M100 132 V44 M126 128 L150 52" stroke="#c3cad4" stroke-width="2.6"/>
+    <path d="M70 92 H130 M64 66 H136 M78 116 H122" stroke="#c3cad4" stroke-width="3"/>
+    <rect x="82" y="126" width="36" height="12" rx="5" fill="#14171c" opacity=".9"/>
+    <ellipse cx="100" cy="156" rx="22" ry="20" fill="#f5f7fa"/>
+    <ellipse cx="100" cy="156" rx="22" ry="20" fill="none" stroke="#c3cad4" stroke-width="2"/>
+    <circle cx="92" cy="150" r="6" fill="#fff" opacity=".9"/></g>
+  <text x="300" y="566" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="19" letter-spacing="5" fill="#0d1420" opacity="0.22">APEX SPORTS</text></svg>

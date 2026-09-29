@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img"><defs>
+    <linearGradient id="bgAPX-0082" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#fbfbfc"/><stop offset="1" stop-color="#eceef1"/>
+    </linearGradient>
+    <radialGradient id="bgAPX-0082s" cx="0.5" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgAPX-0082f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgAPX-0082)"/>
+  <circle cx="470" cy="120" r="130" fill="#ffffff" opacity="0.45"/>
+  <rect width="600" height="600" fill="url(#bgAPX-0082s)"/>
+  <ellipse cx="300" cy="486" rx="146" ry="24" fill="#0d1420" opacity="0.075"/>
+  <ellipse cx="300" cy="486" rx="86" ry="14" fill="#0d1420" opacity="0.06"/>
+  <g transform="translate(300 282) scale(1.80) rotate(-7) translate(-100 -100)">
+    <path d="M30 146 c0 -20 13 -33 32 -38 l34 -9 20 15 42 9 c15 3 22 9 22 17 v6 H30 z" fill="#23262d"/>
+    <path d="M30 146 c0 -20 13 -33 32 -38 l6 9 -18 7 c-14 6 -22 14 -22 22z" fill="#fff" opacity=".12"/>
+    <path d="M96 108 l22 12" stroke="#d5d9df" stroke-width="7" stroke-linecap="round"/>
+    <path d="M124 118 l14 6" stroke="#d5d9df" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <rect x="24" y="152" width="158" height="13" rx="6" fill="#3f434c"/>
+    <g fill="#23262d">
+      <rect x="42" y="164" width="10" height="12" rx="3"/><rect x="72" y="164" width="10" height="12" rx="3"/>
+      <rect x="104" y="164" width="10" height="12" rx="3"/><rect x="136" y="164" width="10" height="12" rx="3"/>
+    </g></g>
+  <text x="300" y="566" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="19" letter-spacing="5" fill="#0d1420" opacity="0.22">APEX SPORTS</text></svg>

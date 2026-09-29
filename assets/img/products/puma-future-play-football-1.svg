@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img"><defs>
+    <linearGradient id="bgAPX-0091" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#fbfbfc"/><stop offset="1" stop-color="#eceef1"/>
+    </linearGradient>
+    <radialGradient id="bgAPX-0091s" cx="0.5" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgAPX-0091f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgAPX-0091)"/>
+  <circle cx="470" cy="120" r="130" fill="#ffffff" opacity="0.45"/>
+  <rect width="600" height="600" fill="url(#bgAPX-0091s)"/>
+  <ellipse cx="300" cy="486" rx="146" ry="24" fill="#0d1420" opacity="0.075"/>
+  <ellipse cx="300" cy="486" rx="86" ry="14" fill="#0d1420" opacity="0.06"/>
+  <g transform="translate(300 276) scale(2.02) translate(-100 -100)">
+    <circle cx="100" cy="100" r="58" fill="#f5f7fa"/>
+    <circle cx="100" cy="100" r="58" fill="none" stroke="#d9dee6" stroke-width="2"/>
+    <polygon points="100,76 123,93 114,120 86,120 77,93" fill="#23262d"/>
+    <path d="M100 76 V42 M123 93 L155 83 M114 120 L133 151 M86 120 L67 151 M77 93 L45 83"
+          stroke="#d9dee6" stroke-width="2.4" fill="none"/>
+    <g transform="rotate(0 100 100)"><polygon points="100,34 113,45 108,62 92,62 87,45" fill="#23262d"/></g><g transform="rotate(72 100 100)"><polygon points="100,34 113,45 108,62 92,62 87,45" fill="#23262d"/></g><g transform="rotate(144 100 100)"><polygon points="100,34 113,45 108,62 92,62 87,45" fill="#23262d"/></g><g transform="rotate(216 100 100)"><polygon points="100,34 113,45 108,62 92,62 87,45" fill="#23262d"/></g><g transform="rotate(288 100 100)"><polygon points="100,34 113,45 108,62 92,62 87,45" fill="#23262d"/></g>
+    <ellipse cx="78" cy="68" rx="16" ry="10" fill="#fff" opacity=".5" transform="rotate(-28 78 68)"/></g>
+  <text x="300" y="566" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="19" letter-spacing="5" fill="#0d1420" opacity="0.22">APEX SPORTS</text></svg>

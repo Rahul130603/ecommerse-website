@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img"><defs>
+    <linearGradient id="bgAPX-0212" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#fbfbfc"/><stop offset="1" stop-color="#eceef1"/>
+    </linearGradient>
+    <radialGradient id="bgAPX-0212s" cx="0.5" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgAPX-0212f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgAPX-0212)"/>
+  <circle cx="470" cy="120" r="130" fill="#ffffff" opacity="0.45"/>
+  <rect width="600" height="600" fill="url(#bgAPX-0212s)"/>
+  <ellipse cx="300" cy="486" rx="146" ry="24" fill="#0d1420" opacity="0.075"/>
+  <ellipse cx="300" cy="486" rx="86" ry="14" fill="#0d1420" opacity="0.06"/>
+  <g transform="translate(300 282) scale(1.80) rotate(-7) translate(-100 -100)">
+    <ellipse cx="100" cy="68" rx="38" ry="46" fill="none" stroke="#23262d" stroke-width="10"/>
+    <ellipse cx="100" cy="68" rx="32" ry="40" fill="#f5f7fa" opacity=".5"/>
+    <path d="M72 54 H128 M72 82 H128 M84 26 V110 M116 26 V110" stroke="#c3cad4" stroke-width="2.2"/>
+    <path d="M100 112 V170" stroke="#71777f" stroke-width="11" stroke-linecap="round"/>
+    <rect x="94" y="150" width="12" height="28" rx="6" fill="#23262d"/>
+    <path d="M92 116 h16" stroke="#4a4f57" stroke-width="6"/>
+    <path d="M170 118 L154 92 L186 92 Z" fill="#f5f7fa"/>
+    <path d="M170 92 V118" stroke="#c3cad4" stroke-width="2.4"/>
+    <path d="M162 100 h16 M166 108 h8" stroke="#c3cad4" stroke-width="2.4"/>
+    <circle cx="170" cy="124" r="8" fill="#14171c"/></g>
+  <text x="300" y="566" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="19" letter-spacing="5" fill="#0d1420" opacity="0.22">APEX SPORTS</text></svg>

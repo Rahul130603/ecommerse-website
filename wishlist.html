@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Wishlist — Apex Sports</title>
+<meta name="description" content="Products you have saved for later at Apex Sports.">
+<meta name="theme-color" content="#0d1420">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="headerMount"></header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+        <b>Wishlist</b>
+      </nav>
+      <h1>My wishlist</h1>
+      <p id="wishSub">Saved items stay on this device until you remove them.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div id="wishActions" class="toolbar" hidden>
+        <p class="toolbar__count" id="wishCountText"></p>
+        <div class="toolbar__right">
+          <button class="btn btn--dark btn--sm" id="moveAll" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><circle cx="9" cy="20" r="1.6"/><circle cx="18" cy="20" r="1.6"/><path d="M2 3h3l2.6 12.2a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.55L22 7H6"/></svg>
+            Move all to cart
+          </button>
+          <button class="btn btn--outline btn--sm" id="clearWish" type="button">Clear wishlist</button>
+        </div>
+      </div>
+      <div class="product-grid" id="wishGrid"></div>
+      <div id="wishEmpty"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="footerMount"></footer>
+<div id="drawerMount"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/wishlist.js"></script>
+</body>
+</html>

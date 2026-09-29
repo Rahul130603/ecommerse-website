@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop All Sports Gear — Apex Sports</title>
+<meta name="description" content="Browse 50+ authentic sports products across cricket, football, basketball, tennis, badminton, fitness, running, cycling, swimming, boxing and outdoor gear. Filter by brand, price and rating.">
+<meta name="theme-color" content="#0d1420">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="headerMount"></header>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+        <b id="crumbNow">Shop all products</b>
+      </nav>
+      <h1 id="pageTitle">Shop all products</h1>
+      <p id="pageSub">50+ hand-picked products from 30 brands. Authentic stock, GST invoice, free express shipping above ₹1,499.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="shop-layout">
+
+        <!-- ------------------------------------------------------- filters -->
+        <aside class="filters" id="filters" aria-label="Product filters">
+          <div class="filters__head">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M3 5.5h18M6.5 12h11M10 18.5h4"/></svg>
+              Filters
+            </h3>
+            <button class="filters__clear" id="clearFilters" type="button">Clear all</button>
+          </div>
+          <div class="filters__body" id="filtersBody"></div>
+        </aside>
+
+        <!-- --------------------------------------------------------- results -->
+        <div>
+          <div class="toolbar">
+            <p class="toolbar__count" id="resultCount"><b>0</b> products</p>
+            <div class="toolbar__right">
+              <button class="btn btn--outline btn--sm filter-toggle" id="filterToggle" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" width="16" height="16"><path d="M3 5.5h18M6.5 12h11M10 18.5h4"/></svg>
+                Filters
+              </button>
+              <label class="sr-only" for="sortBy">Sort products</label>
+              <select class="select" id="sortBy">
+                <option value="featured">Sort: Featured</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating">Customer Rating</option>
+                <option value="discount">Biggest Discount</option>
+                <option value="name">Name: A to Z</option>
+              </select>
+              <div class="view-toggle" role="group" aria-label="View mode">
+                <button type="button" data-view="grid" class="is-on" aria-label="Grid view">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.6"/></svg>
+                </button>
+                <button type="button" data-view="list" aria-label="List view">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="chips" id="activeChips"></div>
+          <div class="product-grid" id="shopGrid"></div>
+          <div id="shopEmpty"></div>
+          <div class="pagination" id="pagination"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight" id="recentMount" hidden></section>
+
+</main>
+
+<footer id="footerMount"></footer>
+<div id="drawerMount"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/shop.js"></script>
+</body>
+</html>
